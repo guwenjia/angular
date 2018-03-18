@@ -1,0 +1,29 @@
+.box{
+    width: 300px;
+    margin: 30px auto;
+}
+
+/*TODOlist样式*/
+body{
+    background-color: darkgrey;
+    height:800px;
+}
+li{
+    list-style: none;
+}
+#header{
+    height:50px;
+    background-color: black;
+}
+#header input{
+    margin-top:15px;
+    margin-right: 50px;
+}
+
+#nowlist li{
+    margin: 10px auto;
+    width:200px;
+    height:30px;
+    background-color:white;
+    border-Radius:5px;
+}
