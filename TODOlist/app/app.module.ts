@@ -7,8 +7,10 @@ import { AppComponent } from './app.component';
 import { TodolistComponent } from './components/todolist/todolist.component';
 import { GoodslistComponent } from './components/goodslist/goodslist.component';
 import { VoterComponent } from './components/voter/voter.component';
-import { FirstComponent } from './components/first/first.component';
-
+import { AComponent } from './components/a/a.component';
+import { MyserviceService } from './services/myservice.service';
+import { InputComponent } from './components/input/input.component';
+import { ListComponent } from './components/list/list.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { FirstComponent } from './components/first/first.component';
     TodolistComponent,
     GoodslistComponent,
     VoterComponent,
-    FirstComponent,
+    AComponent,
+    InputComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [MyserviceService], //声明服务
   bootstrap: [AppComponent]
 })
 export class AppModule { }
