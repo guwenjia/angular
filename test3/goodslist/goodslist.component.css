@@ -1,0 +1,41 @@
+ul,li{
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+li{
+    width: 253px;
+    height: 355px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+ul{
+    margin-top: 40px;
+    text-align: center;
+    height: auto;
+    padding-left: 100px;
+}
+
+.img{
+    width: 240px;
+    height: 300px;
+}
+.title{
+    font-size: 14px;
+    height:30px;
+    margin: 0;
+    text-align: left;
+}
+
+.pirce{
+    color:green;
+    font-size: 20px;
+    height:30px;
+    margin: 0;
+    text-align: left;
+}
