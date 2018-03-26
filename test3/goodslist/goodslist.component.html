@@ -3,11 +3,7 @@
   <li *ngFor="let item of list;let i = index" (click)="goDetail(i)">
     <!-- <a [routerLink]="['gooddetail/',i]">{{item}}</a> -->
     <img src="{{item.goodsListImg}}" alt="" class="img">
-      <p class="pirce">
-       ¥ {{item.price}}
-      </p>
-      <p class="title">
-       {{item.goodsName}}
-      </p>
+      <p class="pirce">¥ {{item.price}}</p>
+      <p class="title">{{item.goodsName}}</p>
   </li>
 </ul>
