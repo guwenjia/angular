@@ -1,0 +1,40 @@
+<ion-header no-border >
+  <ion-navbar class="navbar" transparent color="light">
+    <ion-title  color="light"> 手机注册</ion-title>
+    <button ion-button menuToggle><ion-icon name="ios-arrow-back-outline"></ion-icon></button>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding id="about" color="yel">
+  <ion-list>
+        <ion-item style="background:rgba(0, 0, 0, 0)">
+          <ion-icon name="ios-phone-portrait" item-start color="light"></ion-icon>
+          <ion-input  clearInput type="text" placeholder="手机号" class="inp" [(ngModel)]="username"></ion-input>
+        </ion-item>
+      
+        <ion-item style="background:rgba(0, 0, 0, 0)">
+            <ion-icon name="ios-paper-outline" item-start color="light"></ion-icon>
+          <ion-input class="yanzhengma" clearInput type="text" placeholder="请输入验证码" ></ion-input>
+          <button ion-button class="yanzheng" color="yel" item-end style="height:40px;margin:10px 5px 0 5px;">获取验证码</button>
+        </ion-item>
+
+        <ion-item style="background:rgba(0, 0, 0, 0)">
+            <ion-icon name="ios-lock-outline" item-start color="light"></ion-icon>
+          <ion-input clearInput type="password" placeholder="密码" [(ngModel)]="password"></ion-input>
+        </ion-item>
+
+        <ion-item style="background:rgba(0, 0, 0, 0)">
+            <ion-icon name="ios-lock-outline" item-start color="light"></ion-icon>
+          <ion-input clearInput type="password" placeholder="再次输入密码" [(ngModel)]="password1"></ion-input>
+        </ion-item>
+         
+       <button ion-button class="register" color="yel">注册</button><br/>
+  </ion-list>
+
+  <ion-item no-border style="border:none;background:rgba(0, 0, 0, 0);margin:0 auto;text-align:center;border:0px">
+    <ion-label style="color:white;font-size:12px;">我已阅读并同意《资芽网注册协议》</ion-label>
+    <ion-checkbox color="yellow" checked="true"></ion-checkbox>
+  </ion-item>
+
+
+</ion-content>

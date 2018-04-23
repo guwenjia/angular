@@ -1,0 +1,28 @@
+<ion-header text-center>
+    <ion-navbar  color='yel'>
+        <span style="font-weight:bolder">{{item.title}}</span>
+    </ion-navbar>
+  </ion-header>
+  <ion-content padding  style=" background-color:	WhiteSmoke">
+      <p>{{item.time}}</p>
+      <div class="chat1">
+        <img src="{{item.color}}" alt="">
+        <span>
+          {{ item.content }}
+        </span>
+      </div>
+      
+      <div class="chat2">
+          <img src="../../assets/imgs/touxiang1.jpg" alt="">
+          <span>
+            谢谢你哦
+          </span>
+      </div>
+    </ion-content>
+    <ion-footer style="background-color:white;">
+      <ion-icon name="mic" color='yel' class="icon1"></ion-icon>
+     <input type="text" placeholder="输入聊天内容……">
+     <ion-icon name='happy' color='yel' end class="icon2"></ion-icon>
+     <ion-icon name='add-circle' color='yel' end class="icon3"></ion-icon>
+    
+    </ion-footer>

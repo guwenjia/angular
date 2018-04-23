@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>Toggle Menu</button>
+      <!--<img src="../assets/imgs/images/header.png" class="header-one">
+      <img src="../assets/imgs/imagesarch1.png" class="search">-->
+    </ion-navbar>
+
+  </ion-header> 
+  <ion-menu type="overlay"  [content]="mycontent">
+    <ion-content>
+      <ion-list>
+        <p>some menu content, could be list items</p>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-nav #mycontent [root]="rootPage"></ion-nav>
+
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Follow us on Twitter</ion-list-header>
+    <ion-item>
+      <ion-icon name="ionic" item-start></ion-icon>
+      @ionicframework
+    </ion-item>
+  </ion-list>
+</ion-content>
